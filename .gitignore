@@ -43,3 +43,4 @@ git-instructions.txt
 README-prv.md
 README-prv2.md
 package-lock.json
+.gitignore
