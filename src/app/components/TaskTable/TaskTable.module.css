@@ -1,0 +1,23 @@
+.resizer {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 5px;
+    cursor: col-resize;
+    user-select: none;
+    touch-action: none;
+    background: transparent;
+    border-radius: 6px
+}
+
+.resizer.isResizing {
+    background: #646664;
+    opacity: 1;
+}
+
+*:hover .resizer {
+    opacity: 1;
+}
